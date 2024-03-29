@@ -1,7 +1,11 @@
 import { Inter } from "next/font/google";
-import "../style/globals.css";
+import "../../style/globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+export const FONT_DEFAULT = Inter({
+  subsets: ['latin'],
+  variable: '--font-inter',
+  display: 'swap'
+});
 
 export const metadata = {
   title: "USA Website",
@@ -11,7 +15,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${FONT_DEFAULT.variable}`}>{children}</body>
     </html>
   );
 }
