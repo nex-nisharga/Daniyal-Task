@@ -1,4 +1,5 @@
 import { Icons } from "@/components";
+import Logo from "@/components/Logo";
 
 export default function Home() {
   return (
@@ -7,6 +8,7 @@ export default function Home() {
         Hello <Icons.Moon />
       </h2>
       <h5>Now its time to create our site</h5>
+      <Logo />
     </div>
   );
 }
