@@ -1,7 +1,7 @@
 "use client";
 import ScrollToTop from "react-scroll-to-top";
-import { Icons } from "./Icons";
 import React from "react";
+import { Icons } from "./Icons";
 
 const ScrollTop = () => {
   return (
