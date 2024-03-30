@@ -1,25 +1,31 @@
 import { Icons } from "@/components";
 
-export const Navbar = [
+export const Menu = [
   {
     id: 1,
-    title: "Home",
-    url: "/",
+    label: "Home",
+    route: "/",
   },
   {
     id: 2,
-    title: "About us",
-    url: "/",
+    label: "About us",
+    route: "/about-us",
   },
   {
     id: 3,
-    title: "Contact",
-    url: "/",
+    label: "Contact",
+    route: "/",
   },
   {
     id: 4,
-    title: "Policyholder Portal",
-    url: "/",
+    label: "Policyholder Portal",
+    route: "/",
+  }, 
+  {
+    id: 5,
+    label: "Report a Claim",
+    route: "/",
+    isButton: true
   },
 ];
 
