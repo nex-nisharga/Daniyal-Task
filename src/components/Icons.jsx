@@ -162,9 +162,9 @@ export const Icons = {
   Home: (props) => (
     <svg
       {...props}
-      width="20"
-      height="21"
-      viewBox="0 0 20 21"
+      width="25"
+      height="25"
+      viewBox="0 0 20 25"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -177,9 +177,9 @@ export const Icons = {
   ArrowRight: (props) => (
     <svg
       {...props}
-      width="8"
-      height="13"
-      viewBox="0 0 8 13"
+      width="16"
+      height="26"
+      viewBox="0 0 8 26"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
