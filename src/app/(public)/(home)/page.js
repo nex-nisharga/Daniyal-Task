@@ -1,4 +1,4 @@
-import { Feature, HeroSlider } from "./components";
+import { Adds, Feature, HeroSlider } from "./components";
 
 export default function Home() {
   return (
@@ -6,6 +6,7 @@ export default function Home() {
       <div className="pb-10">
         <HeroSlider />
         <Feature />
+        <Adds />
       </div>
     </>
   );
