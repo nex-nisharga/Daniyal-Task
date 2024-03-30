@@ -20,16 +20,16 @@ export const Menu = [
     id: 4,
     label: "Policyholder Portal",
     route: "/",
-  }, 
+  },
   {
     id: 5,
     label: "Report a Claim",
     route: "/",
-    isButton: true
+    isButton: true,
   },
 ];
 
-export const HeroSlider = [
+export const HeroSliderData = [
   {
     id: 1,
     title: "GET AFFORDABLE, SAME-DAY COVERAGE IN NO TIME.",
@@ -48,7 +48,7 @@ export const HeroSlider = [
     content:
       "With roots over a century deep in the birthplace of the automobile industry, USA Underwriters has the knowledge and expertise to help tailor a policy to suit your lifestyle, your budget, and your priorities.",
     image:
-      "https://i.ibb.co/c2PscXH/Screenshot-2024-03-04-15-01-47-884-edit-com-whatsapp-removebg-preview.png",
+      "https://i.ibb.co/NyG6sqs/Screenshot-2024-03-04-15-02-01-208-edit-com-whatsapp-1.jpg",
     buttonText: "Report a Claim",
     buttonPath: "/",
     button2Text: "Learn More",
