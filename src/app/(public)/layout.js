@@ -1,6 +1,6 @@
 import { Inter } from "next/font/google";
 import "../../style/globals.css";
-import { ScrollTop } from "@/components";
+import { ScrollTop, TheFooter, TheHeader } from "@/components";
 import { AosInit } from "@/utils";
 
 export const FONT_DEFAULT = Inter({
@@ -17,7 +17,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${FONT_DEFAULT.variable}`}>{children}
+      <body className={`${FONT_DEFAULT.variable}`}>
+        <TheHeader />
+        {children}
+        <TheFooter />
       <ScrollTop />
       <AosInit />
       </body>
