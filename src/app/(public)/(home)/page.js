@@ -1,17 +1,11 @@
-import { Icons } from "@/components";
-import Logo from "@/components/Logo";
+import { Feature, HeroSlider } from "./components";
 
 export default function Home() {
   return (
     <>
-      <div className="">
-        <h2 className="p-4 text-red-500">
-          Hello <Icons.Moon />
-        </h2>
-        <div className="container">
-          <h5>Now its time to create our site</h5>
-          <Logo />
-        </div>
+      <div className="pb-10">
+        <HeroSlider />
+        <Feature />
       </div>
     </>
   );
