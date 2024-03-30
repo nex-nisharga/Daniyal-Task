@@ -10,7 +10,7 @@ module.exports = {
       center: true,
       padding: "2rem",
       screens: {
-        "2xl": "1280px",
+        "2xl": "1380px",
       },
     },
     screens: {
@@ -43,7 +43,7 @@ module.exports = {
         success: "#3CB371",
         error: "#ff4444",
         warning: "#ffbb33",
-        info: "#33b5e5",
+        info: "#E5E7EB",
       },
       fontFamily: {
         inter: ["var(--font-inter)"],

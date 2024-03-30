@@ -1,6 +1,6 @@
 export * from "./Icons";
-export * from "./TheFooter";
-export * from "./TheHeader";
-export * from "./Logo";
 
-export { default as ScrollTop } from "./ScrollTop"
+export { default as ScrollTop } from "./ScrollTop";
+export { default as TheHeader } from "./TheHeader";
+export { default as TheFooter } from "./TheFooter";
+export { default as Logo } from "./Logo";
