@@ -4,9 +4,9 @@ import { ScrollTop, TheFooter, TheHeader } from "@/components";
 import { AosInit } from "@/utils";
 
 export const FONT_DEFAULT = Inter({
-  subsets: ['latin'],
-  variable: '--font-inter',
-  display: 'swap'
+  subsets: ["latin"],
+  variable: "--font-inter",
+  display: "swap",
 });
 
 export const metadata = {
@@ -21,8 +21,8 @@ export default function RootLayout({ children }) {
         <TheHeader />
         {children}
         <TheFooter />
-      <ScrollTop />
-      <AosInit />
+        <ScrollTop />
+        <AosInit />
       </body>
     </html>
   );
